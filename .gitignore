@@ -1,0 +1,25 @@
+# Node dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Build outputs
+frontend/build/
+backend/dist/
+
+# Environment files
+*.env
+.env.local
+.env.production
+.env.development
+
+# macOS files
+.DS_Store
+
+# Logs
+*.log
+
+# Editor settings
+.vscode/*
+!.vscode/launch.json
+.idea/
